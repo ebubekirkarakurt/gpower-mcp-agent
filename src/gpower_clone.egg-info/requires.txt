@@ -1,0 +1,8 @@
+scipy
+mcp<3,>=2.3
+
+[agent]
+anthropic>=2.3
+
+[dev]
+pytest

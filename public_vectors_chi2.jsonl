@@ -1,0 +1,5 @@
+{"id":"chi2-contingency/a-priori","input":{"test":"chi2-contingency","mode":"a-priori","w":0.3,"alpha":0.05,"power":0.95,"df":5},"expected":{"ncp":19.8000000,"critical_chi2":11.0704977,"n_total":220,"actual_power":0.9502155}}
+{"id":"chi2-contingency/post-hoc","input":{"test":"chi2-contingency","mode":"post-hoc","w":0.3,"alpha":0.05,"n_total":100,"df":5},"expected":{"ncp":9.0000000,"critical_chi2":11.0704977,"power":0.6235846}}
+{"id":"chi2-contingency/compromise","input":{"test":"chi2-contingency","mode":"compromise","w":0.3,"beta_alpha_ratio":1,"n_total":100,"df":5},"expected":{"ncp":9.0000000,"critical_chi2":7.6804954,"alpha":0.1747455,"beta":0.1747455,"power":0.8252545}}
+{"id":"chi2-contingency/criterion","input":{"test":"chi2-contingency","mode":"criterion","w":0.3,"power":0.95,"n_total":100,"df":5},"expected":{"ncp":9.0000000,"critical_chi2":4.6618452,"alpha":0.4585253}}
+{"id":"chi2-contingency/sensitivity","input":{"test":"chi2-contingency","mode":"sensitivity","alpha":0.05,"power":0.95,"n_total":100,"df":5},"expected":{"ncp":19.7801344,"critical_chi2":11.0704977,"w":0.4447486}}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: gpower-clone
+Version: 0.1.0
+Summary: Independent educational power-analysis CLI
+Requires-Python: >=3.12
+Requires-Dist: scipy
+Requires-Dist: mcp<3,>=2.3
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Provides-Extra: agent
+Requires-Dist: anthropic>=2.3; extra == "agent"

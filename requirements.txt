@@ -1,0 +1,4 @@
+scipy
+mcp>=2.3,<3
+anthropic>=2.3
+pytest

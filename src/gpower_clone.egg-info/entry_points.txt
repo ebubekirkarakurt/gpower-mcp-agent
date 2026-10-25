@@ -1,0 +1,4 @@
+[console_scripts]
+gpower-clone = gpower_clone.cli:main
+gpower-clone-agent = gpower_clone.agent:main
+gpower-clone-mcp = gpower_clone.mcp_server:main

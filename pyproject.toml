@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpower-clone"
+version = "0.1.0"
+description = "Independent educational power-analysis CLI"
+requires-python = ">=3.12"
+dependencies = ["scipy", "mcp>=2.3,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+agent = ["anthropic>=2.3"]
+
+[project.scripts]
+gpower-clone = "gpower_clone.cli:main"
+gpower-clone-mcp = "gpower_clone.mcp_server:main"
+gpower-clone-agent = "gpower_clone.agent:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
