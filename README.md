@@ -1,4 +1,4 @@
-# gpower-clone
+# gpower-mcp-agent
 
 G*Power 3.1.9.7 bağımsız güç analizi motoru ve CLI arayüzü (`chi2-contingency` ailesi).
 
